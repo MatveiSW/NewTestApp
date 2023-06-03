@@ -12,6 +12,7 @@ class TwoViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.tabBar.backgroundColor = .black
         // Do any additional setup after loading the view.
     }
     
