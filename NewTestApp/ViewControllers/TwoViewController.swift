@@ -7,16 +7,18 @@
 
 import UIKit
 
-class TwoViewController: UITabBarController {
+class TwoViewController: UIViewController {
 
+    @IBOutlet var helloLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.tabBar.backgroundColor = .black
         // Do any additional setup after loading the view.
     }
     
 
+    @IBAction func isHeddenButtonTapped(_ sender: UIButton) {
+    }
     /*
     // MARK: - Navigation
 
