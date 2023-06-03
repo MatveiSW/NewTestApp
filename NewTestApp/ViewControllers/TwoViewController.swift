@@ -18,6 +18,7 @@ class TwoViewController: UIViewController {
     
 
     @IBAction func isHeddenButtonTapped(_ sender: UIButton) {
+        helloLabel.isHidden = true
     }
     /*
     // MARK: - Navigation
