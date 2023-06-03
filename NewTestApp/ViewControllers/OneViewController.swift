@@ -17,7 +17,7 @@ class OneViewController: UIViewController {
     }
 
     @IBAction func isHiddenButtonTapped(_ sender: UIButton) {
-        helloLabel.isHidden = true
+        helloLabel.isHidden.toggle()
     }
     
 }
