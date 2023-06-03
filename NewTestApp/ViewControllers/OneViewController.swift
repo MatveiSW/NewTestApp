@@ -12,7 +12,7 @@ class OneViewController: UIViewController {
     @IBOutlet var helloLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+         
         view.backgroundColor = .red
     }
 
