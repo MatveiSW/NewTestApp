@@ -19,7 +19,7 @@ class TwoViewController: UIViewController {
 
     @IBAction func isHeddenButtonTapped(_ sender: UIButton) {
         helloLabel.isHidden.toggle()
-        
+        var test = "test"
     }
     /*
     // MARK: - Navigation
